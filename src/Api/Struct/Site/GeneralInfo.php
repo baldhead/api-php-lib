@@ -14,6 +14,9 @@ class GeneralInfo extends \PleskX\Api\Struct
     /** @var string */
     public $guid;
 
+    /** @var integer */
+    public $webspaceId;
+
     /** @var string */
     public $status;
 
@@ -27,6 +30,7 @@ class GeneralInfo extends \PleskX\Api\Struct
             'ascii-name',
             'status',
             'guid',
+            'webspace-id',
             'description',
         ]);
     }
